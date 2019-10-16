@@ -531,9 +531,7 @@ textarea.form-control {
   height: 500px;
 }
 
-.navbar-light .navbar-brand {
-  margin: 0 55px;
-}
+
 
 .top-header {
   font-size: 12px;
@@ -840,6 +838,9 @@ link:focus,
   }
   .feature-blocks h3 {
     font-size: 25px;
+  }
+  .navbar-light .navbar-brand {
+    margin: 0 55px;
   }
 }
 
