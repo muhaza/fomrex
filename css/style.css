@@ -397,6 +397,7 @@ a h4:hover {
 
 .text-color {
   color: #5c5c77;
+  font-size: 1rem;
 }
 
 .text-light {
@@ -829,10 +830,7 @@ link:focus,
   .feature-blocks h3 {
     font-size: 20px;
   }
-  .navbar-light .navbar-brand {
-    margin: 0 55px;
-  }
-  
+
 }
 
 @media (max-width: 991px) {
