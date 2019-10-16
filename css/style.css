@@ -190,6 +190,7 @@ h6, .h6 {
 .btn-primary:hover {
   background: #ffab08;
   color: #F6AC19;
+  border-color: #ff8600 !important;
 }
 
 .btn-primary:not(:disabled):not(.disabled).active,
