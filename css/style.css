@@ -829,6 +829,10 @@ link:focus,
   .feature-blocks h3 {
     font-size: 20px;
   }
+  .navbar-light .navbar-brand {
+    margin: 0 55px;
+  }
+  
 }
 
 @media (max-width: 991px) {
@@ -839,9 +843,7 @@ link:focus,
   .feature-blocks h3 {
     font-size: 25px;
   }
-  .navbar-light .navbar-brand {
-    margin: 0 55px;
-  }
+  
 }
 
 /* /banner feature */
