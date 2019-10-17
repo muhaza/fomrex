@@ -267,10 +267,24 @@
   <div class="container">
     <div class="row align-items-center">
       <div class="col-md-6 order-2 order-md-1">
-        <h2 class="section-title">About Fomrex</h2>
-        <p>Artisan baby bird food formula. 
-          Made in Malaysia. Founded in 2013, recipe by @rexhanif. Parrot trainer from Shah Alam, Selangor, Malaysia. Fomrex is Home-made food formula for small, medium parrot Budgie, lovebird, cockatiel, conures, parakeet, grey parrot, eclectus .etc. </p>
-        <p>100 % of the daily nutrient requirements for growing, development and good for digestion to completely healthy young birds. This diet supplies vitamins, prebiotics, flora stabilisers,digestive enzymes trace minerals, energy, essential amino, omega and fatty organic acids. Consistent nutrition in every feeding, resulting in faster growth and stronger, healthier baby birds.</p>
+
+          <div id="about">
+              <div class="spinner-border text-warning" role="status">
+                  <span class="sr-only">Loading...</span>
+                </div>
+          </div>
+          <script>
+              var xhttp = new XMLHttpRequest();
+              xhttp.onreadystatechange = function () {
+                  if (this.readyState == 4 && this.status == 200) {
+                      document.getElementById("about").innerHTML =
+                          this.responseText;
+                  }
+              };
+              xhttp.open("GET", "content/about.txt", true);
+              xhttp.send();
+          </script>
+        
         <a href="about.html" class="btn btn-primary-outline">Learn more</a>
       </div>
       <div class="col-md-6 order-1 order-md-2 mb-4 mb-md-0">
